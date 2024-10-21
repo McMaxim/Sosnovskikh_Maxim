@@ -13,8 +13,8 @@ public class Main {
 
     List<Integer> items = Arrays.asList(5, 3, 8, 1, 9, 2);
 
-    SortStrategy mergeSort = new MergeSortStrategy(100);  // Ограничение на 100 элементов
-    SortStrategy bubbleSort = new BubbleSortStrategy(10); // Ограничение на 10 элементов
+    SortStrategy mergeSort = (SortStrategy) new MergeSortStrategy(100);  // Ограничение на 100 элементов
+    SortStrategy bubbleSort = (SortStrategy) new BubbleSortStrategy(10); // Ограничение на 10 элементов
 
     Sorter sorter = new Sorter(Arrays.asList(mergeSort, bubbleSort));
 
