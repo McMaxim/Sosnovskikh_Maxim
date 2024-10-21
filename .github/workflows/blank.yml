@@ -9,18 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set up JDK
-        uses: actions/setup-java@v2
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
         with:
-          java-version: '8'
-          distribution: 'adopt'
-      - name: Run Maven verify
-        run: mvn clean verify
-      - name: Run Maven exec:java
-        if: success()
-        run: mvn exec:java -Dexec.mainClass="main.java.org.example.Main"
-      - name: Run Maven test
-        if: success()
-        run: mvn test
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+      - name: Build with Maven
+        run: mvn verify
