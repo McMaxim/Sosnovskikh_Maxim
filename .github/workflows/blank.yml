@@ -20,7 +20,7 @@ jobs:
         run: mvn clean verify
       - name: Run Maven exec:java
         if: success()
-        run: mvn exec:java -Dexec.mainClass="main.java.main.Main"
+        run: mvn exec:java -Dexec.mainClass="main.java.org.example.Main"
       - name: Run Maven test
         if: success()
         run: mvn test
