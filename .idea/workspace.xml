@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753ec0ef-5c16-44d9-8786-0398ba9bc87b" name="Changes" comment="logika">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/PostFreemarkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ApplicationSetupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ArticleAndCommentCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ArticleUpdateAndDeleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/blog/NotFoundResponsesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/articles/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/articles/ArticleId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/ArticleId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/articles/InMemoryArticlesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/InMemoryArticlesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/comments/InMemoryCommentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/comments/InMemoryCommentsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resourses/article.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resourses/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourses/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/blog/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="753ec0ef-5c16-44d9-8786-0398ba9bc87b" name="Changes" comment="rabota done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,27 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.ArticleAndCommentCreationTest.executor": "Run",
-    "JUnit.NotFoundResponsesTest.executor": "Run",
-    "JUnit.Unnamed.executor": "Run",
-    "Maven. [clean,install].executor": "Run",
-    "Maven. [clean].executor": "Run",
-    "Maven. [install,spark].executor": "Run",
-    "Maven. [install].executor": "Run",
-    "Maven. [package].executor": "Run",
-    "Maven.mipt_homework [clean,install].executor": "Run",
-    "Maven.mipt_homework [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "hw6",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/maxim/OneDrive/Desktop/Sosnovskikh_Maxim"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.ArticleAndCommentCreationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NotFoundResponsesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [install,spark].executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mipt_homework [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mipt_homework [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw6&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maxim/OneDrive/Desktop/Sosnovskikh_Maxim&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
@@ -170,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733071858058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rabota done">
+      <option name="closed" value="true" />
+      <created>1733146764162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733146764162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -189,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="logika" />
-    <option name="LAST_COMMIT_MESSAGE" value="logika" />
+    <MESSAGE value="rabota done" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabota done" />
   </component>
 </project>
