@@ -24,6 +24,7 @@ C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\excep
 C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\exceptions\CommentIdDublicationException.java
 C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\exceptions\CommentNotFoundException.java
 C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\PostController.java
+C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\PostFreemarkerController.java
 C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\PostService.java
 C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\requests\ArticleCreateRequest.java
 C:\Users\maxim\OneDrive\Desktop\Sosnovskikh_Maxim\src\main\java\blog\posts\requests\ArticleUpdateRequest.java

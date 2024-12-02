@@ -2,11 +2,11 @@ package org.example;
 
 import blog.Application;
 import blog.TemplateFactory;
-import blog.posts.PostController;
-import blog.posts.PostFreemarkerController;
-import blog.posts.PostService;
-import blog.posts.articles.InMemoryArticlesRepository;
-import blog.posts.comments.InMemoryCommentsRepository;
+import blog.annoucement.PostController;
+import blog.annoucement.PostFreemarkerController;
+import blog.annoucement.PostService;
+import blog.annoucement.articles.InMemoryArticlesRepository;
+import blog.annoucement.comments.InMemoryCommentsRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import spark.Service;
 
@@ -15,10 +15,10 @@ import java.util.List;
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("Hello, world!");
+    System.out.println("Запуск приложения...");
     Service service = Service.ignite();
     ObjectMapper objectMapper = new ObjectMapper();
-    final var postService = new PostService(
+    PostService postService = new PostService(
             new InMemoryArticlesRepository(),
             new InMemoryCommentsRepository()
     );
@@ -37,5 +37,6 @@ public class Main {
             )
     );
     application.start();
+    System.out.println("Приложение успешно запущено и готово к работе!");
   }
 }

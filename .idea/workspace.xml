@@ -4,58 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753ec0ef-5c16-44d9-8786-0398ba9bc87b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/TemplateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/ArticleId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/ArticlesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/InMemoryArticlesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/comments/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/comments/CommentId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/comments/CommentsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/comments/InMemoryCommentsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleCreateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleDeleteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleFindException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleHeaderExceedHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleIdDublicationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleTagLengthExceedHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleTagsCountExceedHeaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/ArticleUpdateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/CommentCreateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/CommentDeleteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/CommentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/CommentIdDublicationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/exceptions/CommentNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/requests/ArticleCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/requests/ArticleUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/requests/CommentCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/ArticleCreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/ArticleDeleteResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/ArticleGetListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/ArticleGetResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/ArticleUpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/CommentCreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/CommentDeleteResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/responses/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/article.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortStartegies/BubbleSortStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortStartegies/MergeSortStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortStartegies/SortStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortStartegies/Sorter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Tests/BubbleSortStrategyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Tests/MergeSortStrategyTest.java" beforeDir="false" />
+    <list default="true" id="753ec0ef-5c16-44d9-8786-0398ba9bc87b" name="Changes" comment="logika">
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/blog/posts/PostFreemarkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ApplicationSetupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ArticleAndCommentCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/blog/ArticleUpdateAndDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/blog/NotFoundResponsesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/articles/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/articles/ArticleId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/ArticleId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/articles/InMemoryArticlesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/articles/InMemoryArticlesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/posts/comments/InMemoryCommentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/posts/comments/InMemoryCommentsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resourses/article.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resourses/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourses/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/blog/ApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +47,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "McMaxim"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;McMaxim&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/McMaxim/Sosnovskikh_Maxim.git",
-    "accountId": "480146d6-7039-4cef-ad8b-a8cf5f0831f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/McMaxim/Sosnovskikh_Maxim.git&quot;,
+    &quot;accountId&quot;: &quot;480146d6-7039-4cef-ad8b-a8cf5f0831f3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2pcTMcBNbyzvx2rMTgFMStM2zsl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -102,11 +71,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.ArticleAndCommentCreationTest.executor": "Run",
+    "JUnit.NotFoundResponsesTest.executor": "Run",
+    "JUnit.Unnamed.executor": "Run",
+    "Maven. [clean,install].executor": "Run",
     "Maven. [clean].executor": "Run",
+    "Maven. [install,spark].executor": "Run",
     "Maven. [install].executor": "Run",
     "Maven. [package].executor": "Run",
+    "Maven.mipt_homework [clean,install].executor": "Run",
+    "Maven.mipt_homework [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "hw6",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/maxim/OneDrive/Desktop/Sosnovskikh_Maxim"
@@ -114,10 +92,66 @@
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn package" />
       <command value="mvn clean" />
       <command value="mvn install" />
+      <command value="mvn install spark" />
+      <command value="mvn clean install" />
+      <command value="spark-submit --conf &quot;spark.executor.extraJavaOptions=-Dlog4j.configuration=file:/path/to/log4j.properties&quot; " />
+      <command value="mvn package" />
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Unnamed">
+    <configuration name="ArticleAndCommentCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blog" />
+      <option name="MAIN_CLASS_NAME" value="blog.ArticleAndCommentCreationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotFoundResponsesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blog" />
+      <option name="MAIN_CLASS_NAME" value="blog.NotFoundResponsesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HomeWork3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.ArticleAndCommentCreationTest" />
+      <item itemvalue="JUnit.NotFoundResponsesTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArticleAndCommentCreationTest" />
+        <item itemvalue="JUnit.NotFoundResponsesTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -128,6 +162,15 @@
       <option name="presentableId" value="Default" />
       <updated>1733064316888</updated>
     </task>
+    <task id="LOCAL-00001" summary="logika">
+      <option name="closed" value="true" />
+      <created>1733071858058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733071858058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -143,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="logika" />
+    <option name="LAST_COMMIT_MESSAGE" value="logika" />
   </component>
 </project>
