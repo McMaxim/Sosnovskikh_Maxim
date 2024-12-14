@@ -1,25 +1,42 @@
 package org.example;
 
-import SortStartegies.BubbleSortStrategy;
-import SortStartegies.MergeSortStrategy;
-import SortStartegies.SortStrategy;
-import SortStartegies.Sorter;
+import blog.Application;
+import blog.TemplateFactory;
+import blog.annoucement.PostController;
+import blog.annoucement.PostFreemarkerController;
+import blog.annoucement.PostService;
+import blog.annoucement.articles.InMemoryArticlesRepository;
+import blog.annoucement.comments.InMemoryCommentsRepository;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import spark.Service;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+
   public static void main(String[] args) {
-
-    List<Integer> items = Arrays.asList(5, 3, 8, 1, 9, 2);
-
-    SortStrategy mergeSort = (SortStrategy) new MergeSortStrategy(100);  // Ограничение на 100 элементов
-    SortStrategy bubbleSort = (SortStrategy) new BubbleSortStrategy(10); // Ограничение на 10 элементов
-
-    Sorter sorter = new Sorter(Arrays.asList(mergeSort, bubbleSort));
-
-    List<Integer> sortedItems = sorter.sort(items);
-
-    System.out.println("Отсортированный список: " + sortedItems);
+    System.out.println("Запуск приложения...");
+    Service service = Service.ignite();
+    ObjectMapper objectMapper = new ObjectMapper();
+    PostService postService = new PostService(
+            new InMemoryArticlesRepository(),
+            new InMemoryCommentsRepository()
+    );
+    Application application = new Application(
+            List.of(
+                    new PostController(
+                            service,
+                            postService,
+                            objectMapper
+                    ),
+                    new PostFreemarkerController(
+                            service,
+                            postService,
+                            TemplateFactory.freeMarkerEngine()
+                    )
+            )
+    );
+    application.start();
+    System.out.println("Приложение успешно запущено и готово к работе!");
   }
 }
